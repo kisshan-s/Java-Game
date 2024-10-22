@@ -7,11 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 
-/**
-* This is the sample client for you to connect to your game server.
-*
-* <p>Input are taken from stdin and output goes to stdout.
-*/
+
 public final class GameClient {
 
     private static final char END_OF_TRANSMISSION = 4;

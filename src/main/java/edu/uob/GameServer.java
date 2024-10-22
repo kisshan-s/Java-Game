@@ -43,9 +43,7 @@ public final class GameServer {
     List<String> allEntities;
 
     /**
-    * Do not change the following method signature or we won't be able to mark your submission
     * Instantiates a new server instance, specifying a game with some configuration files
-    *
     * @param entitiesFile The game configuration file containing all game entities to use in your game
     * @param actionsFile The game configuration file containing all game actions to use in your game
     */
@@ -67,9 +65,7 @@ public final class GameServer {
     }
 
     /**
-     * Do not change the following method signature or we won't be able to mark your submission
      * This method handles all incoming game commands and carries out the corresponding actions.
-     *
      * @param command The incoming command to be processed
      */
     public String handleCommand(String command) {
