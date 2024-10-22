@@ -44,11 +44,10 @@ public final class GameServer {
 
     /**
     * Instantiates a new server instance, specifying a game with some configuration files
-    * @param entitiesFile The game configuration file containing all game entities to use in your game
-    * @param actionsFile The game configuration file containing all game actions to use in your game
+    * @param entitiesFile The game configuration file containing all game entities
+    * @param actionsFile The game configuration file containing all game actions
     */
     public GameServer(File entitiesFile, File actionsFile) {
-        // TODO implement your server logic here
         try {
             getEntitiesFromFile(entitiesFile);
         } catch (IOException | IllegalArgumentException | ParseException e){
@@ -342,9 +341,7 @@ public final class GameServer {
     }
 
     /**
-    * Do not change the following method signature or we won't be able to mark your submission
     * Handles an incoming connection from the socket server.
-    *
     * @param serverSocket The client socket to read/write from.
     * @throws IOException If any IO related operation fails.
     */
